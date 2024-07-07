@@ -19,8 +19,9 @@ Existe um campo em todo request chamado x-user-id, ele está como obrigatório c
 
 ## Final
 - Utilizar autenticação como JWT para melhor segurança e remover o user-id do header
-- Separar o serviço entre 3 microsserviços
+- Separar o projeto em alguns microsserviços
 - Utilizar CRQS, com bancos e conexões separadas, para uma melhor escalabilidade.
 - Poder utilizar um serviço, como AWS, para CI/CD, junto com uma EC2 ou Amazon Elastic Kubernetes, para a melhor latência do cliente.
 - Utilizar serviços com Lambda para separar em funções menos utilizadas, como relatórios, e deixar ela 100% rodando por ela, com sua necessidade
 - Utilização do Dapper para os relatórios.
+- Utilizar o SonarQube para definir padrões, qualidade de código, cobertura de código.
